@@ -168,7 +168,7 @@ form.addEventListener("submit", function(e){
 
     emailjs.sendForm(
         "Glanza_web",
-        "template_l21802i",
+        "template_ui1ymcj",
         this
     )
     .then(function(){
