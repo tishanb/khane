@@ -588,23 +588,25 @@ Export quality Sri Lankan Cinnamon.
 
             </div>
 
-          <form id="contact-form">
+         <h2>Contact Us</h2>
 
-<input type="text" name="name" placeholder="Full Name" required>
+<form id="contact-form">
+    <input type="text" name="user_name" placeholder="Your Name" required><br><br>
 
-<input type="email" name="email" placeholder="Email Address" required>
+    <input type="email" name="user_email" placeholder="Your Email" required><br><br>
 
-<input type="text" name="company" placeholder="Company Name">
+    <input type="text" name="subject" placeholder="Subject" required><br><br>
 
-<input type="text" name="country" placeholder="Country">
+    <textarea name="message" placeholder="Your Message" required></textarea><br><br>
 
-<textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
 
-<button type="submit" class="btn">
-Send Inquiry
-</button>
-
+    <p id="status"></p>
 </form>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="contact.js"></script>
+
 
         </div>
 
@@ -661,7 +663,7 @@ Send Inquiry
                 <a href="https://www.instagram.com/khane0016?jplx=MTdzOGt2ZzV0ZnBtMQ==" target="_blank"><i class="fab fa-instagram"></i></a>
 
                 <a href="https://youtube.com/@khanesl?si=dRKLLAA771NzIqOq" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a href="contact.html" target="_blank"><i class="fab fa-youtube"></i></a>
+              
                
 
             </div>
@@ -691,17 +693,6 @@ Send Inquiry
 
 </a>
 
-<script src="script.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-<script>
-emailjs.init({
-    publicKey: "txw8y_ieq2uKKftQe",
-});
-</script>
-
-<script src="script.js"></script>
 
 </body>
 </html>
