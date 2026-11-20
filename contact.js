@@ -8,7 +8,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 
     emailjs.sendForm(
         "Glanza_web",
-        "template_l21802i",
+        "template_ui1ymcj",
         this
     ).then(function() {
         document.getElementById("status").innerHTML =
